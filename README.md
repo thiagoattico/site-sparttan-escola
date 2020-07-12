@@ -1,2 +1,1 @@
-# site-sparttan-escola
-Este é um site de divulgação da Sparttan Escola de Dança
+<h1>Site Oficial Sparttan Escola de Dança</h1>
