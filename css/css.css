@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+#subirTopo {
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  padding: 15px;
+  text-transform: uppercase;
+  position: fixed;
+  border: 0;
+  opacity: .8;
+  background: transparent url(../img/slick-arrow.svg) no-repeat center;
+  transform: rotate(270deg);
+  height: 80px;
+  max-width: 20px;
+  }
+
+
+  
+#subirTopo:hover {
+   opacity:1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#menu .menu-site {
+  margin-left: auto;
+  font-size: 20px;
+}
+.slider.principal {
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.slider.principal img {
+  width: 100%;
+  max-height: 100vh;
+  /*object-fit: cover;*/
+}
+.logo.site {
+  height: 8em;
+}
+
+#menu a {
+  color: black;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: #d12d2a;
+  text-decoration: none;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+  background: transparent url(img/slick-arrow.svg) no-repeat center;
+  border: 0;
+  color: transparent;
+  height: 2.2em;
+}
+
+.slick-prev.slick-arrow {
+  left: 1em;
+  transform: rotate(180deg);
+}
+
+.slick-next.slick-arrow {
+  right: 1em;
+}
+
+.section-aulas h3{
+  text-align: center;
+
+}
+
+.section-aulas p{
+  text-align: center;
+}
+.galeria_item {
+  width: 33%;
+  display: block;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria img{
+  height: 200px;
+  object-fit:cover;
+  }
+
+.section-instrutores .slick-slide {
+  margin: 1em;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+.section-vantagens h3 {
+  font-size: 20px;
+}
+
+.section-vantagens p {
+  font-size: 13px;
+}
+
+.section-vantagens h3 {
+  font-weight: bold;
+}
+
+.vantagem-container {
+  width: 31%;
+  margin: 10px;
+}
+.section-contato img {
+  max-width: 45px;
+  max-height: 45px;
+  margin-right: 10px;
+  margin-top: 15px;
+
+}
+@media (min-width: 768px) and (max-width:1000px) {
+  .vantagem-container {
+    width: 100%;
+    position: relative;
+      
+  }
+  .slider.principal img {
+    width: 100%;
+    max-height: 80vh;
+    /*object-fit: cover;*/
+  }
+  .section-about{
+    margin-top: 10px;
+  }
+  .galeria_item{
+    width: 50%;
+    position: relative;
+  }
+  .section-about p{
+    text-align: justify;
+  }
+}
+
+.section-vantagens > div:nth-child(1) {
+  justify-content: space-between;
+}
+/* MEDIA QUERIE
+
+https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries
+
+*/
